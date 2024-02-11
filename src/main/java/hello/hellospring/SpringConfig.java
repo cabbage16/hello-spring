@@ -12,7 +12,7 @@ public class SpringConfig {
 
     @Autowired
     public SpringConfig(MemberRepository memberRepository) {
-        this.memberRepository = memberRepository;
+        this.memberRepository =  memberRepository;
     }
 
     @Bean
